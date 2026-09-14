@@ -1,0 +1,44 @@
+:root {
+  font-family: system-ui, sans-serif;
+  color: #182230;
+  background: #ffffff;
+}
+
+body {
+  width: 240px;
+  margin: 0;
+}
+
+main {
+  padding: 20px;
+}
+
+h1 {
+  margin: 0;
+  font-size: 20px;
+}
+
+p {
+  margin: 12px 0;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  border: 0;
+  border-radius: 6px;
+  font: inherit;
+  color: #ffffff;
+  background: #2455cf;
+  cursor: pointer;
+}
+
+button:focus-visible {
+  outline: 2px solid #182230;
+  outline-offset: 3px;
+}
+
+button:disabled {
+  opacity: 0.6;
+  cursor: wait;
+}

@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "SoundBuffer",
+  "version": "0.1.0",
+  "description": "A minimal SoundBuffer extension with an enable/disable preference.",
+  "permissions": ["storage"],
+  "action": {
+    "default_title": "SoundBuffer",
+    "default_popup": "index.html"
+  }
+}
