@@ -11,6 +11,9 @@
       <h1>SoundBuffer</h1>
       <p id="status" role="status">Loading…</p>
       <button id="toggle" type="button" disabled>Enable</button>
+      <label for="volume">Volume <output id="volume-value" for="volume">100%</output></label>
+      <input id="volume" type="range" min="0" max="100" step="1" value="100" disabled />
+      <p>Input RMS: <span id="level">—</span></p>
     </main>
   </body>
 </html>
